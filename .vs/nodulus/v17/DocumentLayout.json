@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\GameAudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\View\\Control\\GameAudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralMusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\View\\Control\\Procedural\\ProceduralMusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSynth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSynth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProceduralMusic.cs",
+              "DocumentMoniker": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralMusic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\Control\\Procedural\\ProceduralMusic.cs",
+              "ToolTip": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralMusic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\Control\\Procedural\\ProceduralMusic.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAmwIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T04:25:07.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProceduralSfx.cs",
+              "DocumentMoniker": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSfx.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSfx.cs",
+              "ToolTip": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSfx.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSfx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T04:22:28.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProceduralSynth.cs",
+              "DocumentMoniker": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSynth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSynth.cs",
+              "ToolTip": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSynth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\Control\\Procedural\\ProceduralSynth.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAmwL4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T04:22:08.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameAudio.cs",
+              "DocumentMoniker": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\GameAudio.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\Control\\GameAudio.cs",
+              "ToolTip": "C:\\Users\\EQTMCS-1353\\Desktop\\Nodulus\\nodulus\\Assets\\Scripts\\View\\Control\\GameAudio.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\Control\\GameAudio.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAqwJEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T04:12:12.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
