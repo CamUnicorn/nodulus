@@ -5,6 +5,7 @@ using Core.Game;
 using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.UI;
+using View.Control.Procedural;
 using View.Game;
 
 namespace View.Control
@@ -225,6 +226,8 @@ namespace View.Control
 		public void EnableScroll()
 		{
 			if (_scrollEnabled) {
+				// Volver del selector de niveles al tablero
+				_gameAudio.Trigger(NodulusSoundEvent.UiBack, 0.7f);
 				DisableScroll();
 				return;
 			}
@@ -315,6 +318,7 @@ namespace View.Control
 				return;
 			}
 			
+			_gameAudio.Trigger(NodulusSoundEvent.UiRestart);
 			_levels[_selectedLevel].GetComponent<PuzzleState>().RestartLevel();
 		}
 
@@ -541,7 +545,12 @@ namespace View.Control
 		
 		public void ToggleSettings()
 		{
-			_navigation.ToggleSettings();
+			if (!_navigation.ToggleSettings()) {
+				return;
+			}
+			
+			// Abrir ajustes "pausa" el tablero (pulso neutro filtrado); cerrarlos es volver.
+			_gameAudio.Trigger(_navigation.SettingsShown ? NodulusSoundEvent.UiPause : NodulusSoundEvent.UiBack);
 		}
 
 		public void ToggleMusic()

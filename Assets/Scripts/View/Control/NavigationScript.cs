@@ -45,6 +45,7 @@ namespace View.Control
         };
 
         public bool IsTweening => _buttonSelect.IsTweening;
+        public bool SettingsShown => _showSettings;
 
         private void Awake()
         {
@@ -108,10 +109,11 @@ namespace View.Control
             _buttonSelect.ShowSettingsButtons();
         }
 
-        public void ToggleSettings()
+        /// <returns>true si el panel cambió de estado (para disparar su sonido de UI)</returns>
+        public bool ToggleSettings()
         {
             if (LeanTween.isTweening(_settingsTweenId)) {
-                return;
+                return false;
             }
             
             _showSettings = !_showSettings;
@@ -128,6 +130,7 @@ namespace View.Control
                 .setEase(LeanTweenType.easeInOutSine);
                 
             _scrollView.ToggleFreeze();
+            return true;
         }
     }
 }

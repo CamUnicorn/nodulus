@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using View.Control;
+using View.Control.Procedural;
 
 namespace View.Items
 {
@@ -38,6 +39,20 @@ namespace View.Items
             CurrentShape = PlayerPrefs.GetInt(prefsKey) == 0 ? ButtonShapePrimary : ButtonShapeSecondary;
             prevShape.SetActive(false);
             CurrentShape.SetActive(true);
+        }
+
+        private GameAudio _gameAudio;
+
+        /// <summary>Hover/foco: microtono de UI (solo con mouse; en táctil no aplica).</summary>
+        private void OnMouseEnter()
+        {
+            if (_gameAudio == null) {
+                var obj = GameObject.FindGameObjectWithTag("GameAudio");
+                if (obj == null) return;
+                _gameAudio = obj.GetComponent<GameAudio>();
+            }
+
+            if (_gameAudio != null) _gameAudio.Trigger(NodulusSoundEvent.UiHover, 0.7f);
         }
 
         private void OnMouseDown()
